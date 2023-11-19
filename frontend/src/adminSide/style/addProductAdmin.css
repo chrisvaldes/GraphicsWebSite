@@ -1,0 +1,31 @@
+ .show-products{
+    padding: 2rem 0;
+ }
+.box-container{
+    max-width: 1200px;
+    margin : 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 19.5rem);
+    gap : 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}  
+
+.btn-update{
+    margin : 0 2px;
+    background-color: rgb(227, 166, 9);
+}
+.btn-danger{
+    margin : 0 2px;
+    background-color: rgb(227, 34, 9);
+}
+.title{
+    font-weight: bolder;
+}
+
+.hoverable img{
+    height : "18rem";
+    margin-top : "15px";
+    border-radius : "10px";
+    cursor : "pointer"
+}

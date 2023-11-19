@@ -1,0 +1,31 @@
+.container{
+    margin-top: 6rem;
+}
+.card-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    /* , url('../images/LoginImage.jpg') */
+    width: 40%;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.card-text {
+    margin : 2rem 0;
+}
+label{
+    background-color: #0091ea;
+    padding : 4px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.material-icons{
+    color: white;
+}  
+h4{
+    margin-bottom: 2rem;
+}

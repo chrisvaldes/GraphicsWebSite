@@ -1,0 +1,8 @@
+green : #009685
+gray : f5f5f5
+
+onMouseEnter
+onMouseDown
+
+les props permettent aux composants de communiquer entre eux, donnent la possibilité
+de definir les valeurs par défaut
